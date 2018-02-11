@@ -1,0 +1,152 @@
+/* ****** @mixin  ****** */	
+
+/* ****** Variables ****** */	
+
+// Screen resolutions
+$HDTV:  1920px
+$XGA:   1024px
+$SVGA:  800px
+$VGWQA: 480px
+$QVGA:  320px
+
+$color-white: #fff
+$color-gray: #31333b
+$color-orange: #98433a
+
+
+$color-h: $color-gray
+$color-btn: $color-gray
+$color-normal: $color-white
+$color-second: $color-orange
+$color-btn-hover: $color-white
+$color-a-normal: $color-white
+$color-a-hover: rgba(255, 255, 255, .5)
+
+$font-family-body: 'Source Sans Pro', Arial, Helvetica, 'Nimbus Sans L', sans-serif
+$font-family-el-nrml: 'Montserrat', Arial, Helvetica, 'Nimbus Sans L', sans-serif
+$font-family-el-bold: 'Montserrat-Bold', Arial, Helvetica, 'Nimbus Sans L', sans-serif
+
+$header-height-norm: 100px
+$header-height-scrl: 66.6667px
+
+.name
+	text-transform: capitalize
+.hidden
+	display: none
+
+
+.clearfix:before, .clearfix:after
+	content: " "
+	display: table
+.clearfix:after
+	clear: both
+.clearfix
+	*zoom: 1
+
+/* ***** for debugging ***** */
+.bug
+	position: relative
+.bug:after
+	position: absolute
+	left: 50%
+	top: 50%
+	max-width: 99%
+	width: 288.922px
+	margin-left: -289.922px / 2 
+	margin-top: -19px
+	padding: 10px 0
+	content: "!!! Need FIX !!!"
+	font: 700 1.5em 'Arial'
+	text-align: center
+	border: 2px dashed red
+	color: red
+	z-index: 9999
+	cursor: pointer
+///// End debugging 
+	
+/* ****** font-face ****** */
+@font-face 
+	font-family: 'fontello'
+	src: local('fontello'), url('fonts/fontello.eot?84704323'), url('fonts/fontello.eot?84704323#iefix') format('embedded-opentype'), url('fonts/fontello.woff2?84704323') format('woff2'), url('fonts/fontello.woff?84704323') format('woff'), url('fonts/fontello.ttf?84704323') format('truetype'), url('fonts/fontello.svg?84704323#fontello') format('svg')
+	font-weight: normal
+	font-style: normal
+@font-face
+	font-family: 'AwesomeFont'
+	src: local('Awesome Font'), url('fonts/fontawesome-webfont.eot?v=4.7.0'), url('fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg')
+	font-weight: normal
+	font-style: normal	
+@font-face
+	font-family: 'Montserrat'
+	src: local('Montserrat-Regular'), url('fonts/Montserrat-Regular.otf')
+@font-face
+	font-family: 'Montserrat-Bold'
+	src: local('Montserrat-Bold'), url('fonts/Montserrat-Bold.otf')
+@font-face
+	font-family: 'Crimson Text'
+	src: local('CrimsonText-Italic'), url('fonts/CrimsonText-Italic.ttf')
+@font-face
+	font-family: 'Crimson Text BoldItalic'
+	src: local('CrimsonText-BoldItalic'), url('fonts/CrimsonText-BoldItalic.ttf')
+.fa 
+	font-size: inherit
+	text-rendering: auto
+	display: inline-block
+	-moz-osx-font-smoothing: grayscale
+	-webkit-font-smoothing: antialiased
+	font: normal normal normal 16px/1 'AwesomeFont'
+.fa-search:before
+	content: "\f002"
+.fa-shopping-bag:before
+	content: "\f290"
+.fa-bars:before
+	content: "\f0c9"
+.fa-youtube:before
+	content: "\f167"
+.fa-google:before
+	content: "\f1a0"
+.fa-facebook-square:before
+	content: "\f082"
+.fa-twitter:before
+	content: "\f099"
+.fa-instagram:before
+	content: "\f16d"
+.fa-video-camera:before
+	content: "\f03d"
+.fa-headphones:before
+	content: "\f025"
+.fa-cloud-download:before
+	content: "\f0ed"
+.fa-file-o:before
+	content: "\f016"
+.fa-heart-o:before
+	content: "\f08a"
+.fa-comment-o:before
+	content: "\f0e5"
+.fa-map-marker:before
+	content: "\f041"
+.fa-clock-o:before
+	content: "\f017"
+.fa-envelope-o:before
+	content: "\f0e0"
+.fa-mobile:before
+	content: "\f10b"
+.fa-skype:before
+	content: "\f17e"
+.icon_fontello:before
+	opacity: .8
+	speak: none
+	line-height: 1em
+	margin-left: .2em
+	font-style: normal
+	text-align: center
+	font-variant: normal
+	display: inline-block
+	font: normal 120% "fontello"
+	-moz-osx-font-smoothing: grayscale
+	-webkit-font-smoothing: antialiased
+	text-shadow: 1px 1px 1px rgba(127, 127, 127, .3)
+  
+  
+  
+  
+  
